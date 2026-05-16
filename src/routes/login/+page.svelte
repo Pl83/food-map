@@ -57,8 +57,7 @@
 
 			{#if form?.success && form?.action === 'register'}
 				<div class="mb-4 p-3 bg-emerald-50 border border-emerald-100 rounded-lg text-sm text-emerald-700">
-					<strong>Compte créé !</strong> Un email de confirmation a été envoyé à votre adresse
-					@aubay.com. Cliquez sur le lien pour activer votre compte.
+					<strong>Compte créé !</strong> Un email de confirmation a été envoyé à votre adresse. Cliquez sur le lien pour activer votre compte.
 				</div>
 			{/if}
 
@@ -74,9 +73,9 @@
 							type="email"
 							required
 							autocomplete="email"
-							placeholder="prenom.nom@aubay.com"
+							placeholder="prenom.nom@xoxo.com"
 							pattern=".+@aubay\.com"
-							title="Adresse email @aubay.com uniquement"
+							title="Adresse email invalide"
 							class="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:border-transparent transition-shadow"
 						/>
 					</div>
@@ -129,9 +128,9 @@
 							type="email"
 							required
 							autocomplete="email"
-							placeholder="prenom.nom@aubay.com"
+							placeholder="prenom.nom@xoxo.com"
 							pattern=".+@aubay\.com"
-							title="Adresse email @aubay.com uniquement"
+							title="Adresse email invalide"
 							class="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:border-transparent transition-shadow"
 						/>
 					</div>
